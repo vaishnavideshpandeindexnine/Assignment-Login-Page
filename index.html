@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="path/to/material-design-lite/material.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="path/to/material-design-lite/material.min.js"></script>
+
+    <title>Login Form</title>
+</head>
+<body>
+    <div class="mdl-card mdl-shadow--6dp login-card">
+        <div class="mdl-card__title mdl-color--primary">
+            <h1>AVERY</h1>
+            <h2 class="mdl-card__title-text">Log in to continue</h2>
+        </div>
+        <div class="mdl-card__supporting-text">
+            <form action="#">
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                    <label class="mdl-textfield__label" for="email">Email</label><br>
+                    <input class="mdl-textfield__input" type="text" id="username" placeholder="Enter Email ID">
+                </div>
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                    <label class="mdl-textfield__label" for="password">Password</label><br>
+                    <input class="mdl-textfield__input" type="password" id="password" placeholder="Enter Password">
+                    <img class="hide-icon" src="hide.png" alt="Hide Password">
+                </div>
+                <p class="forget">I forgot my password</p>
+                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" id="log" type="submit">
+                    Login
+                </button>
+                <p class="continue">Or Continue With</p>
+                <button class="mui-btn mui-btn--raised">
+                    <img src="google.png" alt="Google Icon"> Sign in with Google
+                </button><br>
+                <button class="mui-btn mui-btn--raised">
+                    <img src="icons8-microsoft-48.png" height="18px" width="18px" alt="Microsoft Icon"> Sign in with Microsoft
+                </button>
+                <hr>
+                <p class="noAcc">Don't have an Account ? <span>Sign Up Here</span></p>
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Terms of Service</p>
+        <p>Privacy Policy</p>
+    </div>
+    <script src="path/to/material-design-lite/material.min.js"></script>
+</body>
+</html>

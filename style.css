@@ -1,0 +1,153 @@
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    
+}
+
+.login-card {
+    width: 90%; /* Adjusted the width for smaller screens */
+    margin: 20px;
+}
+
+.mdl-card {
+    display: block;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 90%;
+    width: 120%;
+    align-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 50px;
+    
+
+   
+}
+
+.mdl-card__title-text {
+    text-align: center;
+    padding: 20px;
+   margin: -10px;
+}
+
+.mdl-card h1 {
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.mdl-card__supporting-text {
+    padding: 20px;
+    margin: 10px;
+}
+
+.mdl-textfield {
+    width: 100%;
+    margin-bottom: 20px;
+   border: none;
+    
+    
+}
+
+.mdl-textfield__label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.mdl-textfield__input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    border: none;
+    background-color: rgb(229, 231, 233);
+    border-radius: 5px;
+}
+
+.forget {
+    text-align: center;
+    color:  rgb(53, 7, 97);
+    font-weight: bold;
+}
+
+.mdl-button,
+.mui-btn {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    background-color: white;
+    border: 1px solid;
+    padding: 6px;
+}
+
+.continue {
+    text-align: center;
+}
+
+.noAcc {
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+.noAcc span {
+    font-weight: bold;
+    color:  rgb(53, 7, 97);
+    cursor: pointer;
+}
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: -80px;
+    margin-left: -80px;
+    color: rgb(77, 75, 75);
+}
+#log{
+    background-color: rgb(53, 7, 97);
+    color: white;
+}
+
+.hide-icon{
+    height: 18px;
+            width: 18px;
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer;
+            margin-left: -100px;
+
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    text-align: right;
+}
+.footer p{
+    margin-right: 5px;
+    padding: 10px;
+    
+}
+
+/* Media Queries for Responsiveness */
+@media only screen and (min-width: 600px) {
+    .login-card {
+        width: 40%;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .login-card {
+        width: 30%;
+    }
+}
