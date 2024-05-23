@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="path/to/material-design-lite/material.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-L4BXlT8gA4QqRdXFs5jYTGErvqjLWXP5pxycF7xl7S+uybkL2/Tlj14V0lEFs0AIF9gY86dY2XzgfuOTdGG0aw==" crossorigin="anonymous" />
     <script src="path/to/material-design-lite/material.min.js"></script>
 
     <title>Login Form</title>
@@ -12,7 +13,8 @@
 <body>
     <div class="mdl-card mdl-shadow--6dp login-card">
         <div class="mdl-card__title mdl-color--primary">
-            <h1>AVERY</h1>
+            <div class="margin-top"><h1 >AVERY</h1></div>
+            
             <h2 class="mdl-card__title-text">Log in to continue</h2>
         </div>
         <div class="mdl-card__supporting-text">
@@ -22,9 +24,12 @@
                     <input class="mdl-textfield__input" type="text" id="username" placeholder="Enter Email ID">
                 </div>
                 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                    <label class="mdl-textfield__label" for="password">Password</label><br>
-                    <input class="mdl-textfield__input" type="password" id="password" placeholder="Enter Password">
-                    <img class="hide-icon" src="hide.png" alt="Hide Password">
+                    <div class="mdl-textfield__label" for="password">Password</label>
+                    <div class="hide-pass">
+                        <input class="mdl-textfield__input" type="password" id="password" placeholder="Enter Password">
+                        <img class="hide-icon" src="hide.png">
+                    </div>
+                    
                 </div>
                 <p class="forget">I forgot my password</p>
                 <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" id="log" type="submit">

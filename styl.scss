@@ -1,0 +1,31 @@
+$border-color-1: red;
+$border-color-2: blue;
+$border-color-3: green;
+
+.btn {
+  border-bottom: 2px solid transparent;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  &:hover {
+    border-color: gray;
+  }
+}
+
+.btn-1 {
+  &.active {
+    border-color: $border-color-1;
+  }
+}
+
+.btn-2 {
+  &.active {
+    border-color: $border-color-2;
+  }
+}
+
+.btn-3 {
+  &.active {
+    border-color: $border-color-3;
+  }
+}
